@@ -1,9 +1,9 @@
 |C|C++|C#|Go|Java|Javascript|Python|Ruby|Rust|
 |---|---|---|---|---|---|---|---|---|
-|||||boolean|||||
+|||||boolean||Boolean|||
 |||||false|||||
 |||||true|||||
-|||||String|||||
+|||||String||String|||
 |int|int|||int|||||
 |||||long|||||
 ||cin|||Scanner(System.in)||input()|||
