@@ -6,4 +6,5 @@
 |||||String|||||
 |int|int|||int|||||
 |||||long|||||
-|||||Scanner(System.in)||input()|||
+||cin|||Scanner(System.in)||input()|||
+||cout|||System.out.println()||print()|||
