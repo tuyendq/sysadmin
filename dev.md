@@ -6,3 +6,4 @@
 |||||String|||||
 |int|int|||int|||||
 |||||long|||||
+|||||Scanner(System.in)||input()|||
