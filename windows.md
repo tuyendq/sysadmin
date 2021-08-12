@@ -9,6 +9,15 @@ rd /s /q %systemdrive%\windows.old
 
 ```
 
+## List files, folders: Fullname, size
+```powershell
+$pathSource = "Full path of source folder"
+$pathDestination = "Full path of destination folder"
+$pathLog = "Full path to save result"
+gci -Recurse -Path $pathSource | Select-Object FullName, Length | Export-Csv -Path $pathLog\source.csv
+gci -Recurse -Path $pathDestination | Select-Object FullName, Length | Export-Csv -Path $pathLog\destination.csv
+```
+
 ## openSUSE Leap
 ```powershell
 $WSLName = "openSUSE-Leap-15.2"
