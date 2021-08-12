@@ -14,8 +14,8 @@ rd /s /q %systemdrive%\windows.old
 $pathSource = "Full path of source folder"
 $pathDestination = "Full path of destination folder"
 $pathLog = "Full path to save result"
-gci -Recurse -Path $pathSource | Select-Object FullName, Length | Export-Csv -Path $pathLog\source.csv
-gci -Recurse -Path $pathDestination | Select-Object FullName, Length | Export-Csv -Path $pathLog\destination.csv
+gci -Recurse -Path $pathSource | Select-Object FullName, Length | Export-Csv -Path $pathLog\source.csv -NoTypeInformation
+gci -Recurse -Path $pathDestination | Select-Object FullName, Length | Export-Csv -Path $pathLog\destination.csv --NoTypeInformation
 ```
 
 ## openSUSE Leap
